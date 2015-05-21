@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>5aa55fd5-6e61-4896-b186-fdc6f298ec92@mozilla</em:id>
+    <em:version>0.1</em:version>
+    <em:type>2</em:type>
+    <em:bootstrap>true</em:bootstrap>
+    <em:unpack>false</em:unpack>
+
+    <!-- All other gecko-based products -->
+    <em:targetApplication>
+      <Description>
+        <em:id>toolkit@mozilla.org</em:id>
+        <em:minVersion>2.0</em:minVersion>
+        <em:maxVersion>2.39.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>20.0</em:minVersion>
+        <em:maxVersion>39.0</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <!-- Front End MetaData -->
+    <em:name>Disable DHE</em:name>
+    <em:description>Disables ephemeral Diffie-Hellman cipher suites that are vulnerable to the logjam attack.</em:description>
+    <em:creator>Mozilla</em:creator>
+
+  </Description>
+</RDF>
