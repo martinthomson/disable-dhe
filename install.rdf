@@ -6,7 +6,7 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
     <em:id>5aa55fd5-6e61-4896-b186-fdc6f298ec92@mozilla</em:id>
-    <em:version>0.1</em:version>
+    <em:version>0.1.1</em:version>
     <em:type>2</em:type>
     <em:bootstrap>true</em:bootstrap>
     <em:unpack>false</em:unpack>
