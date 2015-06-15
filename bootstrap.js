@@ -9,7 +9,9 @@ const prefService = Cc['@mozilla.org/preferences-service;1'].
                     QueryInterface(Ci.nsIPrefBranch);
 const prefs = [
   'security.ssl3.dhe_rsa_aes_128_sha',
-  'security.ssl3.dhe_rsa_aes_256_sha'
+  'security.ssl3.dhe_rsa_aes_256_sha',
+  'security.ssl3.dhe_dss_aes_128_sha',
+  'security.ssl3.dhe_rsa_des_ede3_sha'
 ];
 
 function install() {}
