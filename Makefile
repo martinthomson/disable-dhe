@@ -1,2 +1,2 @@
-disable-dhe.xpi: install.rdf bootstrap.js
+webrtc-hide-local-address.xpi: install.rdf bootstrap.js
 	zip -9 $@ $?

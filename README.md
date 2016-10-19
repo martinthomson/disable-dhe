@@ -1,9 +1,8 @@
-# disable-dhe extension
+# webrtc-hide-local-address extension
 
-(Disable DHE cipher suites in Firefox)[https://addons.mozilla.org/en-US/developers/addon/disable-dhe/]
+(Hide local IP addresses from content using WebRTC in Firefox)[https://addons.mozilla.org/en-US/developers/addon/webrtc-hide-local-address/]
 
-This might be a good idea if you are concerned about the [logjam
-attack](https://weakdh.org/).  This extension disables the affected cipher
-suites.  That could mean that you will be unable to reach sites if they only
-support the affected cipher suites.  A better fix, which will be in Firefox 39,
-will be more selective, rejecting very weak shares only.
+Useful if you wish to prevent websites from learning your local IP addresses
+when you're behind a NAT. Also prevents the use of interfaces other than your
+default. May prevent WebRTC calls from working over a local network with some
+services.
