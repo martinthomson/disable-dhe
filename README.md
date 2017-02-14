@@ -1,6 +1,6 @@
 # disable-dhe extension
 
-(Disable DHE cipher suites in Firefox)[https://addons.mozilla.org/en-US/developers/addon/disable-dhe/]
+[Disable DHE cipher suites on Add-ons for Firefox](https://addons.mozilla.org/addon/disable-dhe/)
 
 This might be a good idea if you are concerned about the [logjam
 attack](https://weakdh.org/).  This extension disables the affected cipher
